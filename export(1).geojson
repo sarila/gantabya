@@ -1,0 +1,465 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-11-13T09:17:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1143907450",
+        "amenity": "parking",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         85.3459986 ,
+          27.7280115 
+        ]
+      },
+      "id": "node/1143907450"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1875745723",
+        "amenity": "parking",
+        "highway": "bus_stop:,
+        "name": "Gongabu Chowk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3147282 ,
+          27.7351393 
+        ]
+      },
+      "id": "node/1875745723"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1497171791",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2894756  ,
+          27.7155613  
+        ]
+      },
+      "id": "node/1497171791"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1497167600",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3010574,
+          27.7144168  
+        ]
+      },
+      "id": "node/1497167600"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1390371557",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3212726  ,
+          27.7195393  
+        ]
+      },
+      "id": "node/1390371557"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2103915031",
+        "amenity": "parking",
+        "name": "Xavier International College Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3373615,
+          27.7140065  
+        ]
+      },
+      "id": "node/2103915031"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3362924443",
+        "amenity": "parking",
+        "access": "permissive",
+        "addr:city": "kathmandu",
+        "amenity": "parking",
+        "fee": "no",
+        "name": "Deerwalk Services Parking Area",
+        "park_ride": yes",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3426876 ,
+          27.7117833  
+        ]
+      },
+      "id": "node/3362924443"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/442150819",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.35048 ,
+          27.7065175  
+        ]
+      },
+      "id": "node/442150819"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1857049413",
+        "amenity": "parking",
+        "fee": "Rs 20 per Hour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         85.3134004  ,
+          27.7140154  
+        ]
+      },
+      "id": "node/1857049413"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1857049442",
+        "amenity": "parking",
+        "operator": "Garden of Dreams",
+        "parking": "park_and_ride",
+        "name": "Garden Of Dreams Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3153074  ,
+          27.7140653  
+        ]
+      },
+      "id": "node/1857049442"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1497181227",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2897599  ,
+          27.7059917  
+        ]
+      },
+      "id": "node/1497181227"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4928252592",
+        "amenity": "parking",
+        "addr:street": "kamlachi",
+        "addr:tole": "Ason kamlachi",
+        "addr:ward": "27",
+        "amenity": "parking",
+        "name": "parking area",
+        "operator": "private"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3126433,
+          27.7077164  
+        ]
+      },
+      "id": "node/4928252592"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1399507923",
+        "amenity": "parking",
+        "parking": "surface",
+        "name": "Bkt bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3224696  ,
+          27.7068925  
+        ]
+      },
+      "id": "node/1399507923"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905387746",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3231864 ,
+          27.704962  
+        ]
+      },
+      "id": "node/1905387746"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905381931",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3233373 ,
+          27.7044675  
+        ]
+      },
+      "id": "node/1905381931"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905391518",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3234204 ,
+          27.7031768  
+        ]
+      },
+      "id": "node/1905391518"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905361894",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.324495 ,
+          27.7020882  
+        ]
+      },
+      "id": "node/1905361894"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3148638605",
+        "amenity": "parking",
+        "name": "Ranjana Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3105236 ,
+          27.7041478  
+        ]
+      },
+      "id": "node/3148638605"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3148638604",
+        "amenity": "parking",
+        "name": "Nepal Complex Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         85.3107921 ,
+          27.7040976  
+        ]
+      },
+      "id": "node/3148638604"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1497546342",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3121087  ,
+          27.7024043 
+        ]
+      },
+      "id": "node/1497546342"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2174589203",
+        "amenity": "parking",
+        "parking": "surface",
+        "name": "KFA Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3378537 ,
+          27.6957864  
+        ]
+      },
+      "id": "node/2174589203"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1894339212",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3356988 ,
+          27.6892446  
+        ]
+      },
+      "id": "node/1894339212"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2128621086",
+        "amenity": "parking",
+        "parking": "surface",
+        "name": "Patan Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3159193 ,
+          27.6821287  
+        ]
+      },
+      "id": "node/2128621086"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2099484005",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3461118 ,
+          27.6768799  
+        ]
+      },
+      "id": "node/2099484005"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1875745723",
+        "amenity": "parking",
+        "highway": "bus_stop:,
+        "name": "Gongabu Chowk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3147282 ,
+          27.7351393 
+        ]
+      },
+      "id": "node/1875745723"
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1875745723",
+        "amenity": "parking",
+        "highway": "bus_stop:,
+        "name": "Gongabu Chowk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3147282 ,
+          27.7351393 
+        ]
+      },
+      "id": "node/1875745723"
+    }
+  ]
+}

@@ -14,6 +14,25 @@
 			<div class="front">
 				<div class="container">
 					<h1 align="center">MAP</h1>
+					<div id="map">
+						<script type="text/javascript" src="index.js">
+							// add markers to map
+							geojson.features.forEach(function(marker) {
+
+							  // create a HTML element for each feature
+							  var el = document.createElement('div');
+							  el.className = 'marker';
+
+							  // make a marker for each feature and add to the map
+										    new mapboxgl.Marker(el)
+							  .setLngLat(marker.geometry.coordinates)
+							  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+							    .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+							    .addTo(map);
+							});
+						</script>			
+					</div>
+
 				</div>
 				<div class="footer">
 					<div class="left">
