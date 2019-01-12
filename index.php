@@ -16,23 +16,18 @@
 	<body>
 		<div class="head">
 			<div id="expand">
-				<div class="collapse" id="navbarToggleExternalContent" style="width: 100% !important">
-					
+				<div class="collapse" id="navbarToggleExternalContent" style="width: 100% !important">	
 					<ul class="tog-ul">
 						<li class="tog-li"><a href="#about" class="tog-a">About</a></li>
+						<li class="tog-li"><a href="login.php" class="tog-a">Login</a></li>
+						<li class="tog-li"><a href="signup.php" class="tog-a">Signup</a></li>-
 					</ul>
-					
 				</div>
 				<a href="#" class="navbar-toggler as" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars"></i>
 				</a>
 			</div>
-			<div class="top">
-				<div class="black"></div>
-				<img src="images/s12.jpg" alt="" class="bg"/>
-				<h1 class="p wow zoomIn">By The Way</h1>
-				<p id="desc" class="wow zoomIn" style="margin-top: 20px;">Choose your path <br>Walk or Drive</p>
-			</div>
+			<?php include('top.php'); ?>
 			<div class="front">
 				<center><h2 style="font-family: k2d;">MAP</h2></center>
 				<div id="map">

@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/custom.css">
 	<link href="https://fonts.googleapis.com/css?family=Charm|Lobster|K2D|Pacifico|Permanent+Marker|Satisfy" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="dist/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/form.css">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
