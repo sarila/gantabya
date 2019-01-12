@@ -1,38 +1,12 @@
-// mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zNHE0bWlvIn0.YZp4hkzV1dDzOAW133Ws2w';
-    mapboxgl.accessToken = 'pk.eyJ1IjoiYmlyYXRzayIsImEiOiJjanFyeXBrMDIwczZpNDJsdWtnZDM0cXRjIn0.r6QA7nJ2sMOf65fXY26rag';
-
-  // var map = new mapboxgl.Map({
-  //     container: 'map', // container id
-  //     style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-  //     center: [85.3240, 27.7172], // starting position [lng, lat]
-  //     zoom: 13 // starting zoom
-  // });
-
-  const map = new mapboxgl.Map({
-                    container: 'map',
-                    style: 'mapbox://styles/biratsk/cjqtcghvt10tw2sqw4a5273jy',
-                    center: [85.32299,27.69755],
-                    zoom: 11.6
-                    });
-
-//   map.on('load', function(e) {
-// map.addLayer({
-//   id: 'locations',
-//   type: 'text',
-
-//   // Add a GeoJSON source containing place coordinates and information.
-//   source: {
-//     type: 'geojson',
-//     data: stores
-//   },
-//   layout: {
-//     'icon-image': 'restaurant-15',
-//     'icon-allow-overlap': true,
-//   }
-// });
+mapboxgl.accessToken = 'pk.eyJ1IjoiYmlyYXRzayIsImEiOiJjanFyeXBrMDIwczZpNDJsdWtnZDM0cXRjIn0.r6QA7nJ2sMOf65fXY26rag';
 
 
-// });
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/biratsk/cjqtcghvt10tw2sqw4a5273jy',
+    center: [85.32299,27.69755],
+    zoom: 11.6
+});
 
   map.on('load', function () {
     // Add a layer showing the places.
@@ -46,8 +20,7 @@
                 "features": [{
                     "type": "Feature",
                     "properties": {
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -57,8 +30,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Gongabu Chowk</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -80,8 +52,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -92,8 +63,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -104,8 +74,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Xavier International College cafe</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -116,8 +85,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Deerwalk Services cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -128,8 +96,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -141,8 +108,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -154,8 +120,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Garden Of Dreams cafe</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -167,8 +132,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -180,8 +144,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe area Ason</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -192,8 +155,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Bkt bus stop</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -204,8 +166,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -216,8 +177,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -228,8 +188,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -240,8 +199,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -252,8 +210,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Ranjana cafe</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -264,8 +221,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Nepal Complex cafer</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -276,8 +232,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -289,8 +244,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>KFA cafe</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -302,8 +256,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -326,8 +279,7 @@
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>cafe Area</strong>",
-                           //"icon": "cafe"
-                           "icon":"none"
+                        "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",

@@ -2,19 +2,16 @@
 <html>
 	<head>
 		<?php include('head.inc.php'); ?>
-		<!-- <style>
-		html{
-		scroll-behavior: smooth;
-		}
-		.front{
-		position: absolute;
-		top: 70%;
-		left: 0;
-		width: 100%;
-		height: 160vh;
-		background: #eee;
-		}
-		</style> -->
+		<style>
+			.front{
+	position: absolute;
+	top: 70%;
+	left: 0;
+	width: 100%;
+	height: 140vh;
+	background: #eee;
+}
+		</style>
 	</head>
 	<body>
 		<div class="head">
@@ -29,13 +26,12 @@
 				<a href="#" class="navbar-toggler as" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars"></i>
 				</a>
-				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> -->
 			</div>
 			<div class="top">
 				<div class="black"></div>
 				<img src="images/s12.jpg" alt="" class="bg"/>
 				<h1 class="p wow zoomIn">By The Way</h1>
-				<p id="desc" class="wow zoomIn">Save Your Time</p>
+				<p id="desc" class="wow zoomIn" style="margin-top: 20px;">Choose your path <br>Walk or Drive</p>
 			</div>
 			<div class="front">
 				<center><h2 style="font-family: k2d;">MAP</h2></center>
@@ -53,16 +49,7 @@
 						.setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
 						.addTo(map);
 						});
-					</script> --><!-- 
-					<script src="index.js">
-					mapboxgl.accessToken = 'pk.eyJ1IjoiYmlyYXRzayIsImEiOiJjanFyeXBrMDIwczZpNDJsdWtnZDM0cXRjIn0.r6QA7nJ2sMOf65fXY26rag';
-					const map = new mapboxgl.Map({
-					container: 'map',
-					style: 'mapbox://styles/biratsk/cjqtcghvt10tw2sqw4a5273jy',
-					center: [85.32299,27.69755],
-					zoom: 11.6
-					});
-					</script>
+					</script>  
 				</div><br><br><br>
 				<div class="container">
 					<div class="about">
