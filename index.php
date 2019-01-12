@@ -74,5 +74,10 @@
 		</div>
 		
 		<?php include 'script.inc.php'; ?>
+		<script>
+				$(document).ready(function(){
+					$(".mapboxgl-ctrl-icon").click();
+				});
+			</script>
 	</body>
 </html>
