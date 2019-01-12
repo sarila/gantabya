@@ -1,0 +1,270 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*----------MY Code----------*/
+body{
+    background-color: #eee;
+}
+
+.profile{
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 16px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.marg-l{
+    margin-left: 20px;
+}
+sup{
+    background-color: #28cd00;
+    border-radius: 50% 0;
+    padding: 0 4px;
+}
+
+.fa{
+    float:left;
+}
+
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+    /*---side left---*/
+ .side-left{
+
+ }
+
+.grps{
+    margin-left: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 16px 5px rgba(0,0,0,0.1);
+    height: fit-content;
+    background-color: #fff;
+}
+.col-lg-10{
+    padding-left: 70px;
+}
+
+.d{
+    padding-bottom: 20px;
+}
+.grps ul {
+    margin-top: 30px;
+}
+.grps ul li {
+    list-style: none;
+}
+.grps ul li a{
+    padding: 10px 0;
+    display: block;
+    color: #111;
+    background-color: #7D97A5;
+    text-decoration: none;
+}
+.grps ul li a i{
+    width: 30px;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+
+.grps ul li a:hover{
+    background-color: #bbb;
+}
+
+.fit{
+    width: 200px;
+}
+
+.interest{
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 16px 5px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.s-box{
+    margin-left: 30px;
+}
+
+.padd-t-l{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.i1{
+    color: #fff;
+    background-color: #303E4F;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+.i2{
+    color: #fff;
+    background-color: #3a4b53;
+    width: fit-content;
+}
+.i3{
+    color: #fff;
+    background-color: #345761;
+    width: fit-content;
+}
+.i4{
+    color: #fff;
+    background-color: #4d636f;
+    width: fit-content;
+}
+.i5{
+    color: #fff;
+    background-color: #57707d;
+    width: fit-content;
+}
+.i6{
+    color: #fff;
+    background-color: #607d8b;
+    width: fit-content;
+}
+.i7{
+    color: #fff;
+    background-color: #7d97a5;
+    width: fit-content;
+}
+.i8{
+    color: #fff;
+    background-color: #9eb1bb;
+    width: fit-content;
+}
+
+.notice{
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: #Dfe5e8;
+    transition: all ease-in-out 350ms;
+}
+
+.pad-5{
+    padding: 10px 15px;
+}
+
+#X{
+    cursor: pointer;
+    background-color: #999;
+    padding: 15px 15px;
+}
+
+
+/*--side mid---*/
+
+.side-mid{
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.post {
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 16px 5px rgba(0,0,0,0.1);
+}
+
+.but{
+    color: #fff;
+    background-color: #607d8b; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}

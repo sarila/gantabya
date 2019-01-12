@@ -16,13 +16,13 @@
 			
 		</div>
 		<div class="front" style="height: 80vh !important; top: 100px;">
-			<form method="post" action="" name="sign" enctype="multipart/form-data" class="form-sup" style="top: 5%; left:55%;">
+			<form method="post" action="userp.php" name="sign" enctype="multipart/form-data" class="form-sup" style="top: 5%; left:55%;">
 				<fieldset>
 					<legend>Login</legend>
 					<input class="input" type="text" name="name" required placeholder="Username"><br>
 					<input class="input" type="password" name="p1" required placeholder="Password"><br>
 					<br>
-					<input class="submit-btn" type="submit" name="signup" value="Register">
+					<input class="submit-btn" type="submit" name="signup" value="Login" href="#">
 				</fieldset>
 			</form>
 		</div>
