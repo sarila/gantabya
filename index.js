@@ -1,10 +1,20 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zNHE0bWlvIn0.YZp4hkzV1dDzOAW133Ws2w';
-  var map = new mapboxgl.Map({
-      container: 'map', // container id
-      style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
-      center: [85.3240, 27.7172], // starting position [lng, lat]
-      zoom: 13 // starting zoom
-  });
+// mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zNHE0bWlvIn0.YZp4hkzV1dDzOAW133Ws2w';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYmlyYXRzayIsImEiOiJjanFyeXBrMDIwczZpNDJsdWtnZDM0cXRjIn0.r6QA7nJ2sMOf65fXY26rag';
+
+  // var map = new mapboxgl.Map({
+  //     container: 'map', // container id
+  //     style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+  //     center: [85.3240, 27.7172], // starting position [lng, lat]
+  //     zoom: 13 // starting zoom
+  // });
+
+  const map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/biratsk/cjqtcghvt10tw2sqw4a5273jy',
+                    center: [85.32299,27.69755],
+                    zoom: 11.6
+                    });
+
 //   map.on('load', function(e) {
 // map.addLayer({
 //   id: 'locations',
@@ -36,7 +46,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 "features": [{
                     "type": "Feature",
                     "properties": {
-                        "icon": "parking"
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -46,7 +57,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Gongabu Chowk</strong>",
-                        "icon": "parking"
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -56,8 +68,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "bar"
+                        "description": "<strong>cafe Area</strong>",
+                        "icon": "none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -67,8 +79,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -78,8 +91,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -89,8 +103,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Xavier International College Parking</strong>",
-                        "icon": "parking"
+                        "description": "<strong>Xavier International College cafe</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -100,8 +115,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Deerwalk Services Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>Deerwalk Services cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -111,8 +127,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -123,8 +140,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -135,8 +153,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Garden Of Dreams Parking</strong>",
-                        "icon": "parking"
+                        "description": "<strong>Garden Of Dreams cafe</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -147,8 +166,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -159,8 +179,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>parking area Ason</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe area Ason</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -171,7 +192,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Bkt bus stop</strong>",
-                        "icon": "parking"
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -181,8 +203,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -192,8 +215,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -203,8 +227,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -214,8 +239,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -225,8 +251,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Ranjana Parking</strong>",
-                        "icon": "parking"
+                        "description": "<strong>Ranjana cafe</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -236,8 +263,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Nepal Complex Parkingr</strong>",
-                        "icon": "parking"
+                        "description": "<strong>Nepal Complex cafer</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -247,8 +275,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -259,8 +288,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>KFA Parking</strong>",
-                        "icon": "parking"
+                        "description": "<strong>KFA cafe</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -271,8 +301,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "parking"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",
@@ -284,7 +315,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Patan Square</strong>",
-                        "icon": "cafe"
+                        "icon": "parking"
                     },
                     "geometry": {
                         "type": "Point",
@@ -294,8 +325,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmlyaXNoYSIsImEiOiJjam9jdzI0eXkwMjFnM3FzNm0zN
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Parking Area</strong>",
-                        "icon": "cafe"
+                        "description": "<strong>cafe Area</strong>",
+                           //"icon": "cafe"
+                           "icon":"none"
                     },
                     "geometry": {
                         "type": "Point",

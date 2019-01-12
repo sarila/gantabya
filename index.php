@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<?php include('head.inc.php'); ?>
-		<style>
+		<!-- <style>
 		html{
-	scroll-behavior: smooth;
-}
+		scroll-behavior: smooth;
+		}
 		.front{
 		position: absolute;
 		top: 70%;
@@ -14,7 +14,7 @@
 		height: 160vh;
 		background: #eee;
 		}
-		</style>
+		</style> -->
 	</head>
 	<body>
 		<div class="head">
@@ -53,25 +53,33 @@
 						.setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
 						.addTo(map);
 						});
+					</script> --><!-- 
+					<script src="index.js">
+					mapboxgl.accessToken = 'pk.eyJ1IjoiYmlyYXRzayIsImEiOiJjanFyeXBrMDIwczZpNDJsdWtnZDM0cXRjIn0.r6QA7nJ2sMOf65fXY26rag';
+					const map = new mapboxgl.Map({
+					container: 'map',
+					style: 'mapbox://styles/biratsk/cjqtcghvt10tw2sqw4a5273jy',
+					center: [85.32299,27.69755],
+					zoom: 11.6
+					});
 					</script>
 				</div><br><br><br>
 				<div class="container">
 					<div class="about">
 						<div class="row">
-
 							<center><h2 style="font-family: k2d;" id="about">About</h2></center><br><br>
 							<div class="col-lg-12">
 								<div class="col-lg-5 wow slideInLeft">
 									<center><img src="images/logo.png" width="200px" height="200px"></center>
 								</div>
-								<div class="col-lg-6 wow slideInRight"> 
+								<div class="col-lg-6 wow slideInRight">
 									<p style="font-size: 16px; letter-spacing: 1px; color: #555; text-align: justify;">This web app is suppose to find the shortest route and parking area around certain radius of your destination. Walking, Cycling or Driving.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<footer>	
+				<footer>
 					<div class="footer">
 						<div class="left">
 							<center>
