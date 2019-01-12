@@ -1,14 +1,13 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiYmlyYXRzayIsImEiOiJjanFyeXBrMDIwczZpNDJsdWtnZDM0cXRjIn0.r6QA7nJ2sMOf65fXY26rag';
 
-
-const map = new mapboxgl.Map({
+var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/biratsk/cjqtcghvt10tw2sqw4a5273jy',
     center: [85.32299,27.69755],
     zoom: 11.6
 });
 
-  map.on('load', function () {
+map.on('load', function () {
     // Add a layer showing the places.
     map.addLayer({
         "id": "places",
@@ -20,248 +19,228 @@ const map = new mapboxgl.Map({
                 "features": [{
                     "type": "Feature",
                     "properties": {
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3459986 ,27.7280115]
+                        "coordinates": [85.3459986, 27.7280115]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
                         "description": "<strong>Gongabu Chowk</strong>",
-                        "icon":"none"
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3147282 ,
-          27.7351393 ]
+                        "coordinates": [85.3147282, 27.7351393 ]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon": "none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon": "parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.2894756  ,
-          27.7155613]
+                        "coordinates": [85.2894756, 27.7155613]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3010574,
-          27.7144168 ]
+                        "coordinates": [85.3010574, 27.7144168 ]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3212726  ,
-          27.7195393]
+                        "coordinates": [85.3212726, 27.7195393]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Xavier International College cafe</strong>",
-                        "icon":"none"
+                        "description": "<strong>Xavier International College Parking</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3373615,
-          27.7140065]
+                        "coordinates": [85.3373615, 27.7140065]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Deerwalk Services cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Deerwalk Services Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3426876 ,
-          27.7117833]
+                        "coordinates": [85.3426876, 27.7117833]
                     }
                 }, {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.35048 ,
-          27.7065175]
+                        "coordinates": [85.35048, 27.7065175]
                     }
                 },
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [ 85.3134004  ,
-          27.7140154]
+                        "coordinates": [ 85.3134004, 27.7140154]
                     }
                 },
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Garden Of Dreams cafe</strong>",
-                        "icon":"none"
+                        "description": "<strong>Garden Of Dreams Parking</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3153074  ,
-          27.7140653]
+                        "coordinates": [85.3153074, 27.7140653]
                     }
                 },
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.2897599  ,
-          27.7059917]
+                        "coordinates": [85.2897599, 27.7059917]
                     }
                 },
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe area Ason</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area Ason</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3126433,
-          27.7077164]
+                        "coordinates": [85.3126433, 27.7077164]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Bkt bus stop</strong>",
-                        "icon":"none"
+                        "description": "<strong>BKT Bus Stop</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3224696  ,
-          27.7068925]
+                        "coordinates": [85.3224696, 27.7068925]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3231864 ,
-          27.704962]
+                        "coordinates": [85.3231864, 27.704962]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3233373 ,
-          27.7044675]
+                        "coordinates": [85.3233373, 27.7044675]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3234204 ,
-          27.7031768]
+                        "coordinates": [85.3234204, 27.7031768]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.324495 ,
-          27.7020882]
+                        "coordinates": [85.324495, 27.7020882]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Ranjana cafe</strong>",
-                        "icon":"none"
+                        "description": "<strong>Ranjana Parking</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3105236 ,
-          27.7041478]
+                        "coordinates": [85.3105236, 27.7041478]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>Nepal Complex cafer</strong>",
-                        "icon":"none"
+                        "description": "<strong>Nepal Complex Parking</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3107921 ,
-          27.7040976]
+                        "coordinates": [85.3107921, 27.7040976]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3121087  ,
-          27.7024043]
+                        "coordinates": [85.3121087, 27.7024043]
                     }
                 },
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>KFA cafe</strong>",
-                        "icon":"none"
+                        "description": "<strong>KFA Parking</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3378537 ,
-          27.6957864 ]
+                        "coordinates": [85.3378537, 27.6957864]
                     }
                 },
                 {
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [ 85.3356988 ,
-          27.6892446 ]
+                        "coordinates": [ 85.3356988, 27.6892446]
                     }
                 },
                 {
@@ -272,19 +251,17 @@ const map = new mapboxgl.Map({
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3159193 ,
-          27.6821287]
+                        "coordinates": [85.3159193, 27.6821287]
                     }
                 },{
                     "type": "Feature",
                     "properties": {
-                        "description": "<strong>cafe Area</strong>",
-                        "icon":"none"
+                        "description": "<strong>Parking Area</strong>",
+                        "icon":"parking"
                     },
                     "geometry": {
                         "type": "Point",
-                        "coordinates": [85.3461118 ,
-          27.6768799]
+                        "coordinates": [85.3461118, 27.6768799]
                     }
                 }]
             }
@@ -295,7 +272,7 @@ const map = new mapboxgl.Map({
         }
     });
 
-    // When a click event occurs on a feature in the places layer, open a popup at the
+     // When a click event occurs on a feature in the places layer, open a popup at the
     // location of the feature, with description HTML from its properties.
     map.on('click', 'places', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
